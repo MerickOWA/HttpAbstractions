@@ -33,6 +33,8 @@ namespace Microsoft.Net.Http.Headers
             "ddd, d MMM yyyy H:m:s", // RFC 5322 no zone
             "d MMM yyyy H:m:s zzz", // RFC 5322 no day-of-week
             "d MMM yyyy H:m:s", // RFC 5322 no day-of-week, no zone
+
+            "ddd, dd'-'MMM'-'yyyy HH':'mm':'ss 'GMT'", // HttpCookie format from http://referencesource.microsoft.com/#System.Web/httpserverutility.cs,1526
         };
 
         internal const char CR = '\r';
